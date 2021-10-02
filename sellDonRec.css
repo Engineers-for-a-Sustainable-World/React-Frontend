@@ -1,0 +1,11 @@
+.sell{
+    position: absolute;
+    width: 204px;
+    height: 65px;
+    right: 15%;
+    top: 0;
+
+    background: #C20606;
+    border-radius: 30px;
+
+}

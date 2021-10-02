@@ -1,0 +1,9 @@
+.sell{
+    position: absolute;
+    width: 325px;
+    height: 65px;
+    right: 5%;
+
+    background: #C20606;
+    border-radius: 30px;
+}
