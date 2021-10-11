@@ -1,5 +1,5 @@
-.furniture{
-    position: absolute;
+.categoryName{
+    position: relative;
     width: 303px;
     height: 45px;
     left: -15px;
@@ -13,4 +13,9 @@
     text-align: center;
 
     color: #C20606;
+}
+
+.category-header{
+    display: flex;
+    justify-content: space-between;
 }

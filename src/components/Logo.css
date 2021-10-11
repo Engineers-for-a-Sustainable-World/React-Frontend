@@ -1,7 +1,7 @@
 .logoFont{
-  position: absolute;
+  position: relative;
   width: 303px;
-  height: 47px;
+  height: 90px;
 
   font-family: Roboto;
   font-style: normal;

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import "./MyAccount.css";
+import "./header.css";
 
 const MyAccount = () => {
   return (

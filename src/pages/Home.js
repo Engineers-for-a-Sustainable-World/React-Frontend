@@ -1,39 +1,51 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Logo from "../components/Logo.js";
 import MyAccount from "../components/MyAccount.js";
 import Sell from "../components/sell.js";
-import ListingBox1 from "../components/homepage/ListingBox1.js";
-import ListingBox2 from "../components/homepage/ListingBox2.js";
-import ListingBox3 from "../components/homepage/ListingBox3.js";
-import ListingBox4 from "../components/homepage/ListingBox4.js";
+import ListingBox from "../components/homepage/ListingBox.js";
 import Filter from "../components/homepage/filter.js";
-import Furniture from "../components/homepage/furniture.js";
+import CategoryName from "../components/homepage/categoryName.js";
 import More from "../components/homepage/more.js";
 
 
 const Home = () => {
   return (
-    <div>
-      <Logo/>
-      <div>
+    <div className = "homepage">
+      <div className = "header">
+        <Logo/>
         <Sell/>
         <MyAccount/>
         <Filter/>
       </div>
-      <div>
-        <Furniture/>
+      <div className = "category-header">
+        <CategoryName name="Furniture"/>
         <More/>
-        <ListingBox1/>
       </div>
-      <div>
-        <ListingBox2/>
+      <div className = "row-container">
+        <ListingBox/>
+        <ListingBox/>
+        <ListingBox/>
+        <ListingBox/>
       </div>
-      <div>
-        <ListingBox3/>
+      <div className = "category-header">
+        <CategoryName name="Clothing"/>
+        <More/>
       </div>
-      <div>
-        <ListingBox4/>
+      <div className = "row-container">
+        <ListingBox/>
+        <ListingBox/>
+        <ListingBox/>
+        <ListingBox/>
+      </div>
+      <div className = "category-header">
+        <CategoryName name="Electronics"/>
+        <More/>
+      </div>
+      <div className = "row-container">
+        <ListingBox/>
+        <ListingBox/>
+        <ListingBox/>
+        <ListingBox/>
       </div>
     </div>
 
