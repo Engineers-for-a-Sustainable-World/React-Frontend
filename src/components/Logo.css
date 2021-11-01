@@ -1,14 +1,11 @@
 .logoFont{
   position: relative;
-  width: 303px;
-  height: 90px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-
   color: #C20606;
+  /* background-color: green; */
 }

@@ -3,7 +3,7 @@ import Logo from "../components/Logo.js";
 import MyAccount from "../components/MyAccount.js";
 import Sell from "../components/sell.js";
 import ListingBox from "../components/homepage/ListingBox.js";
-import Filter from "../components/homepage/filter.js";
+import Filter from "../components/filter.js";
 import CategoryName from "../components/homepage/categoryName.js";
 import More from "../components/homepage/more.js";
 
@@ -12,10 +12,14 @@ const Home = () => {
   return (
     <div className = "homepage">
       <div className = "header">
-        <Logo/>
-        <Sell/>
-        <MyAccount/>
-        <Filter/>
+        <div className = "logoFilter">
+          <Logo/>
+          <Filter/>
+        </div>
+        <div className = "headerButtons">
+          <Sell/>
+          <MyAccount/>
+        </div>
       </div>
       <div className = "category-header">
         <CategoryName name="Furniture"/>
