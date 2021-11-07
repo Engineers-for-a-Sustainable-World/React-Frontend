@@ -5,7 +5,7 @@ import "./Logo.css";
 const Logo = () => {
   return (
     <div>
-      <h1 className="logoFont">CornellPop</h1>
+      <h1 className="logoFont">RedCycle</h1>
     </div>
   )
 }

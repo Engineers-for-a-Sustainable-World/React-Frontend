@@ -1,9 +1,9 @@
 import React from 'react';
-import Logo from "../components/Logo.js";
-import MyAccount from "../components/MyAccount.js";
-import Sell from "../components/sell.js";
+import Logo from "../components/header/Logo.js";
+import MyAccount from "../components/header/MyAccount.js";
+import Sell from "../components/header/sell.js";
 import ListingBox from "../components/homepage/ListingBox.js";
-import Filter from "../components/filter.js";
+import Filter from "../components/header/filter.js";
 import CategoryName from "../components/homepage/categoryName.js";
 import More from "../components/homepage/more.js";
 

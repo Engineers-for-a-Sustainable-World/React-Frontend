@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Logo from "../components/Logo.js";
+import Logo from "../components/header/Logo.js";
 
 const OtherPageEx = () => {
   return (
